@@ -11,3 +11,55 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.truncado{
+  width: inherit;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.text-primary {
+  color: #F06A15!important;
+}
+
+.btn-primary{
+  background-color: #F06A15!important;
+  border-color: #F06A15!important;
+}
+
+.text-bg-primary, .bg-primary{
+  color: white!important;
+  background-color: #F06A15!important;
+}
+
+.nav-pills > .active{
+  background-color: white!important;
+  border-bottom: 2px solid #F06A15!important;
+  color: white!important;
+}
+.nav-pills > .nav-link{
+  
+  color: gray!important;
+}
+
+#hero-app{
+  background-image: url("../public/hero4.jpg");
+}
+#hero-home{
+  position: relative;
+
+}
+#hero-home::after{
+  content: "";
+  position: absolute;
+  opacity: 0.40;
+  background: url("../public/hero.png");
+  mix-blend-mode: normal;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
