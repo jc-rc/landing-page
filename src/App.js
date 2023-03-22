@@ -16,8 +16,8 @@ function App() {
         <nav>
           <div className="nav nav-pills bg-light  me-2 rounded" id="nav-tab" role="tablist">
             <button className="btn-sm nav-link active nav-bar-brand d-flex align-items-center" id="nav-home-tab" data-bs-toggle="pill" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">
-              <img className='d-block me-2' src="./logo-ctvka.png" alt="" style={{ height: 50 }} />
-               <p className='d-none d-sm-block m-0'>Inicio</p> 
+              <img className='d-block me-2' src="./logo_vector.svg" alt="" style={{ height: 50 }} />
+               {/* <p className='d-none d-sm-block m-0'>Inicio</p>  */}
             </button>
 
             <button className="btn-sm nav-link" id="nav-empresarios-tab" data-bs-toggle="pill" data-bs-target="#nav-empresarios" type="button" role="tab" aria-controls="nav-empresarios" aria-selected="false"> <i className="fa-solid fa-building-user d-block d-sm-none"></i> <p className="m-0 d-none d-sm-block">Empresarios</p></button>
